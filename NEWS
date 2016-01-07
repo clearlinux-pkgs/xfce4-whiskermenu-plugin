@@ -1,0 +1,201 @@
+1.5.2
+=====
+- Fix modifier keys resetting focus to search entry. (bug #12378)
+- Fix limited input length for search actions. (bug #12381)
+- Fix menu shrinking unnecessarily. (bug #12246)
+- Fix minimum window size.
+- Translation updates: Chinese (China), Hungarian, Korean, Lithuanian,
+  Romanian.
+
+1.5.1
+=====
+- Fix window being draggable. (bug #11908)
+- Fix not searching descriptions.
+- Translation updates: Asturian, Bulgarian, Chinese (China),
+  Chinese (Taiwan), Croatian, Czech, Danish, Dutch, French, Finnish,
+  German, Indonesian, Japanese, Kazakh, Lithuanian, Malay, Nepali,
+  Norwegian Bokmål, Persian, Polish, Portuguese, Russian, Serbian,
+  Slovak, Slovenian, Spanish, Swedish, Turkish
+
+1.5.0
+=====
+- Fix search activation to allow input methods.
+- Fix broken menu when closed by window manager.
+- Fix unnecessary assignment to NULL.
+- Fix possible null pointer dereference.
+- Add option to set background opacity.
+- Add command to edit profile.
+- Add profile picture.
+- Add customizable limit for recently used.
+- Add support for non-square panel button icon.
+- Add items of Xfce settings manager to allow searching.
+- Expand subcategories when activated.
+- Load default settings from XDG location.
+- Make launchers executable when they are added to desktop.
+- Rearrange options in configuration dialog.
+- Refactor list page code.
+- Rename option for including favorites in recently used.
+- Rename option to use single panel row.
+- Rename button to match default menu applet.
+- Use a single instance of the garcon menu.
+- Translation updates: Bulgarian, Catalan, Dutch, French, German, Hebrew,
+  Italian, Japanese, Lithuanian, Polish, Portuguese, Slovak, Slovenian,
+  Spanish, Swedish, Turkish, Chinese (Taiwan).
+
+1.4.3
+=====
+- Fix hang at launch by removing load thread.
+- Fix not saving sorted favorites.
+- Translation updates: French, Hungarian, Russian, Slovak.
+
+1.4.2
+=====
+- Fix panel button border not shown when pressed.
+- Fix commands were editable when disabled.
+- Fix incorrectly disabled checkbox for commands position.
+- Fix commands next to search when not next to panel button.
+- Translation updates: French, Hebrew, Serbian.
+
+1.4.1
+=====
+- Fix crash with invalid utf8 encoding.
+- Fix not searching descriptions unless shown.
+- Fix not using secure connection to Wikipedia.
+- Translation updates: Asturian, Basque, Dutch, Finnish, French, Greek, Indonesian, Kazakh, Lithuanian, Nepali, Persian, Polish, Romanian, Spanish, Swedish, Turkish, Ukrainian, Uzbek.
+
+1.4.0
+=====
+- Add option to switch position of categories and launchers.
+- Add waiting for grabs; allows modifier as shortcut.
+- Add padding to username.
+- Add single panel row option.
+- Add about entry to context menu.
+- Load applications immediately.
+- Recognize keypad enter as return for searching.
+- Set menu window type hint to DIALOG.
+- Translation updates: Bulgarian, Catalan, Chinese (Taiwan), Czech, Dutch, French, German, Hebrew, Italian, Japanese, Malay, Norwegian Bokmål, Polish, Portuguese, Russian, Slovak, Spanish, Swedish.
+
+1.3.2
+=====
+- Fix crash when rearranging favorites.
+- Fix menu flashing when panel button is pressed rapidly.
+- Fix unable to click command buttons when focus follows mouse.
+- Fix panel button icon alignment in deskbar mode.
+- Translation updates: Arabic, Asturian, Chinese (Taiwan), Croatian, Czech, Danish, Finnish, Latvian, Nepali, Norwegian Bokmål, Portuguese (Brazil), Slovenian, Vietnamese.
+
+1.3.1
+=====
+- Fix crash when menu items are changed.
+- Fixes to the button layout.
+- Translation updates: German, French, Nepali, Polish, Spanish, Uzbek, Vietnamese.
+
+1.3.0
+=====
+- Fix menu artifacts when switching categories.
+- Fix undefined behavior in slots.
+- Add command to launch menu editor.
+- Add command to switch users.
+- Add hiding commands.
+- Add browsing for commands.
+- Add hiding category and launcher icons.
+- Add loading default settings from a file.
+- Add search actions.
+- Add running arbitrary programs in PATH.
+- Add dragging launchers to panel or desktop.
+- Add support for custom menu files.
+- Defer loading applications until window is shown.
+- Merge configuration dialog tabs.
+- Rearrange source files to match standard layout of Xfce plugins.
+- Reduce unnecessary reloading of applications.
+- Rewrite search model code.
+- Use a single row in Xfce 4.10 panel.
+- Use empty file for saving settings.
+- Translation updates: Asturian, Brazilian Portuguese, Bulgarian, Catalan, Chinese (Taiwan), Dutch, German, Hebrew, Hungarian, Italian, Japanese, Kazakh, Malay, Nepali, Norwegian Bokmål, Persian, Polish, Portuguese, Romanian, Russian, Serbian, Serbian (Latin), Slovak, Spanish, Turkish, Ukrainian, Uzbek.
+
+1.2.2
+=====
+- Fix incorrect fetching of panel orientation in Xfce 4.10.
+- Fix menu item icons colored by selection background.
+- Fix unable to set custom commands with parameters.
+- Translation updates: Arabic, German, Spanish, Ukrainian.
+
+1.2.1
+=====
+- Fix incorrect comparison for checking icon sizes.
+- Add window title to allow identifying menu window.
+- Add tips to README for popup script and compiz workaround.
+- Improve build system files.
+- Translation updates: Asturian, Catalan, Chinese (Taiwan), Czech, German, Estonian, French, Hungarian, Indonesian, Persian, Russian, Spanish, Turkish.
+
+1.2.0
+=====
+- Fix popup script to show correct version information.
+- Fix memory leak when reloading applications.
+- Fix favorites and recent deleted when menu failed to load.
+- Add option to load menu hierarchy.
+- Add option to not include favorites in recently used.
+- Add options to set custom commands.
+- Add option to show recently used by default.
+- Add option to position search entry next to panel button.
+- Add option to position command buttons next to search entry.
+- Add manual page for popup script.
+- Use tabs for configuration dialog layout.
+- Translation updates: Brazilian Portuguese, Bulgarian, Catalan, Croatian, Danish, Dutch, Finnish, French, German, Greek, Hebrew, Italian, Japanese, Malay, Norwegian Bokmål, Polish, Portuguese, Romanian, Russian, Serbian (Latin), Slovak, Spanish, Uzbek.
+
+1.1.1
+=====
+- Add name to main widget to allow styling.
+- Build system improvements.
+- Translation updates: Arabic, Catalan, French, Indonesian, Japanese, Malay, Russian, Spanish.
+
+1.1.0
+=====
+- Fix hang at launch when there are too many recent items.
+- Fix focus selection not properly reset when switching categories.
+- Fix menu not hiding when configuration dialog is clicked.
+- Fix context menu disabling detection of clicks outside menu.
+- Fix filter applied when button is deselected.
+- Fix not showing items with duplicate text.
+- Add external command to popup menu.
+- Add option to show label with or instead of icon.
+- Add option to switch categories by hovering.
+- Add choosing icon sizes of launchers and categories.
+- Add scrolling to sidebar.
+- Add menu action to clear recently used.
+- Add menu actions to sort favorites alphabetically.
+- Add icons to context menu.
+- New search algorithm.
+- Refactor category code.
+- Show launcher name in context menu.
+- Build system improvements.
+- Reduce C++ version.
+- Translation updates: Brazilian Portuguese, Bulgarian, Danish, Dutch, German, Greek, Hebrew, Kazakh, Hungarian, Indonesian, Italian, Norwegian Bokmål, Polish, Portuguese, Romanian, Slovak, Swedish, Turkish, Vietnamese.
+
+1.0.3
+=====
+- Fix changes to favorites not always saved.
+- Fix crash when categories have empty icons or names.
+- Fix menu position in mulithead.
+- Fix RTL alignment of menu items.
+- Translation updates: French, Malay, Polish, Russian, Swedish.
+
+1.0.2
+=====
+- Fix position being reset when scrolling with directional keys.
+- Fix issues with detecting when to grab pointer.
+- Fix not always saving configuration changes.
+- Draw resize triangle in lighter color.
+- Translation updates: Arabic, Catalan, Greek, Turkish, Vietnamese.
+
+1.0.1
+=====
+- Fix excessive menu reloading when apps are installed.
+- Fix plugin not respecting panel row height.
+- Fix handling of non-standard icon extensions.
+- Fix compile and load errors with Ubuntu 12.04.
+- Fix not showing login name when real name is unknown.
+- Fix arrow keys not changing selection in search results.
+- Always strip release builds.
+- Add uninstall target.
+- Add README and installation instructions.
+- Translation updates: German, Hebrew, Indonesian, Italian, Romanian, Spanish, Turkish.
