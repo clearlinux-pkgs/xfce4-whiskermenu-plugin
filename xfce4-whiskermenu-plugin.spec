@@ -4,7 +4,7 @@
 #
 Name     : xfce4-whiskermenu-plugin
 Version  : 1.5.2
-Release  : 6
+Release  : 7
 URL      : http://mirror.netcologne.de/xfce/src/panel-plugins/xfce4-whiskermenu-plugin/1.5/xfce4-whiskermenu-plugin-1.5.2.tar.bz2
 Source0  : http://mirror.netcologne.de/xfce/src/panel-plugins/xfce4-whiskermenu-plugin/1.5/xfce4-whiskermenu-plugin-1.5.2.tar.bz2
 Summary  : No detailed summary available
@@ -20,6 +20,7 @@ BuildRequires : pkgconfig(exo-1)
 BuildRequires : pkgconfig(garcon-1)
 BuildRequires : pkgconfig(gtk+-2.0)
 BuildRequires : pkgconfig(libxfce4panel-1.0)
+Patch1: 0001-Show-the-menu-label-by-default.patch
 
 %description
 About
@@ -75,6 +76,7 @@ locales components for the xfce4-whiskermenu-plugin package.
 
 %prep
 %setup -q -n xfce4-whiskermenu-plugin-1.5.2
+%patch1 -p1
 
 %build
 mkdir clr-build
