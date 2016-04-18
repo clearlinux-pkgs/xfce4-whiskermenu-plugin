@@ -1,3 +1,69 @@
+commit 127e8f21a36f5b1b16ffc4e1142620fb0c2522a6
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-04-16
+
+    Bump version number.
+
+commit 455e90ccf46e2de1857fd8e449ba40195bf5bd81
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-04-16
+
+    I18n: Update translation nl (100%.)
+
+commit f51d62df942af6e9a297008425bfc666f286d224
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-04-16
+
+    I18n: Update translation lt (100%.)
+
+commit 50419d41dde570501d7c98ce40a8646ef5471fb5
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-04-16
+
+    I18n: Update translation ko (100%.)
+
+commit eca1457fe78c7cdd529a3a309be430c96224628f
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-04-16
+
+    I18n: Add translation is (100%.)
+
+commit 423f2d7151593b6c071f59c7718375c427c4ff9c
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-04-16
+
+    I18n: Update translation he (100%.)
+
+commit f3237e45dbba3a6f008ee4cba90dcb14155dade6
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-04-16
+
+    I18n: Update translation eu (16%.)
+
+commit 0ef821dac3235552b4e704230fff08b59d0649f3
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-04-16
+
+    I18n: Add translation am (100%.)
+
+commit 56af96df8705cc4aa4292870601ae372943e5737
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-04-15
+
+    Fix stuck button highlight. (bug #12402)
+
+commit 39e6653c9bc78725114a6b568ed88b613a966bb8
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-04-14
+
+    Fix losing categories by reverting single garcon instance. (bug #12541)
+
+commit b1d54066640f00b51579929ac3706cd0b2fd5eb4
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-01-06
+
+    Fix warning about infinite recursion. (bug #12398)
+
 commit d08418c8d55edfacef190ec14e03e1e9a6988101
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-12-29
