@@ -1,3 +1,95 @@
+2.1.2
+=====
+- Fixed category names checkbox incorrectly enabled when opening dialog.
+- Fixed category names turning off at login. (bug #13422)
+- Translation updates: Arabic, Icelandic, Swedish.
+
+2.1.1
+=====
+- Fixed memory leak when editing launcher.
+- Translation updates: Catalan, Danish, German, Portuguese,
+  Portuguese (Brazil), Russian, Serbian, Serbian (Latin).
+
+2.1.0
+=====
+- Add editing launchers from context menu. (bug #13290)
+- Add support for desktop actions. (bug #11787)
+- Add option to hide category names. (bug #12895)
+- Load applications immediately.
+- Translation updates: Bulgarian, Chinese (Taiwan), Croatian, Czech,
+  Dutch, French, German, Greek, Hungarian, Korean, Kazakh, Lithuanian,
+  Nepali, Norwegian Bokmål, Polish, Portuguese, Portuguese (Brazil),
+  Serbian, Slovak, Slovenian, Spanish, Turkish, Ukrainian.
+
+2.0.3
+=====
+- Translation updates: Croatian, Dutch, Greek, Korean, Nepali,
+  Norwegian Bokmål, Portuguese, Portuguese (Brazil), Slovak, Serbian.
+
+2.0.2
+=====
+- Translation updates: Asturian, Basque, Catalan (Valencian),
+  Chinese (China), Kazakh, Lithuanian, Polish, Russian, Turkish,
+  Ukrainian.
+
+2.0.1
+=====
+- Support minimum of GTK+ 3.12.
+
+2.0.0
+=====
+- Port to GTK+ 3. (bug #11549)
+- Translation updates: Bulgarian, Catalan, Chinese (Taiwan), Czech,
+  Dutch, French, Hebrew, Hungarian, Lithuanian, Polish, Slovak,
+  Slovenian, Spanish.
+
+1.7.2
+=====
+- Fixed category names checkbox incorrectly enabled when opening dialog.
+- Fixed category names turning off at login. (bug #13422)
+- Translation updates: Arabic, Icelandic, Swedish.
+
+1.7.1
+=====
+- Fixed memory leak when editing launcher.
+- Translation updates: Catalan, Danish, German, Portuguese,
+  Portuguese (Brazil), Russian, Serbian, Serbian (Latin).
+
+1.7.0
+=====
+- Add editing launchers from context menu. (bug #13290)
+- Add support for desktop actions. (bug #11787)
+- Add option to hide category names. (bug #12895)
+- Load applications immediately.
+- Translation updates: Bulgarian, Chinese (Taiwan), Croatian, Czech,
+  Dutch, French, German, Greek, Hungarian, Korean, Kazakh, Lithuanian,
+  Nepali, Norwegian Bokmål, Polish, Portuguese, Portuguese (Brazil),
+  Serbian, Slovak, Slovenian, Spanish, Turkish, Ukrainian.
+
+1.6.2
+=====
+- Translation updates: Croatian, Dutch, Greek, Korean, Nepali,
+  Norwegian Bokmål, Portuguese, Portuguese (Brazil), Slovak.
+
+1.6.1
+=====
+- Translation updates: Asturian, Basque, Catalan (Valencian),
+  Chinese (China), Kazakh, Lithuanian, Polish, Russian, Turkish,
+  Ukrainian.
+
+1.6.0
+=====
+- Add keyboard navigation for categories. (bug #11550)
+- Add tooltips for program descriptions. (bug #12379)
+- Add web search action.
+- Hide recent items when maximum is set to zero.
+- Prevent memory leak when changing element text.
+- Search favorites and recent first.
+- Switch to icon names from GtkStock.
+- Translation updates: Bulgarian, Catalan, Chinese (Taiwan), Czech,
+  Dutch, German, French, Hebrew, Hungarian, Lithuanian, Polish, Slovak,
+  Slovenian, Serbian, Spanish.
+
 1.5.3
 =====
 - Fix stuck button highlight. (bug #12402)

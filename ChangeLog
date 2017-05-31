@@ -1,350 +1,1364 @@
-commit 127e8f21a36f5b1b16ffc4e1142620fb0c2522a6
+commit 2a6ef2a3d59894681897d6f2ab3581f03570ac1d
 Author: Graeme Gott <graeme@gottcode.org>
-Date:   2016-04-16
+Date:   2017-04-04
 
     Bump version number.
 
-commit 455e90ccf46e2de1857fd8e449ba40195bf5bd81
+commit c0d2fa11d844bbca02bc69fd57d6faa37a6d68e3
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-03-30
+
+    I18n: Update translation sv (100%).
+
+commit da74583727a1be566ae6fbdf1eecd7af6bae0be1
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-03-14
+
+    I18n: Update translation is (75%).
+
+commit 73b35bc8c81c1f1ad53fadcabbc9a664153b0ca2
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-03-14
+
+    I18n: Update translation ar (76%).
+
+commit e2d053f157100f15b0f93a369da51282ab8fdd0a
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-03-13
+
+    Fix enabling category names checkbox when reopening dialog.
+
+commit 7160cdba6378be792b8aae3d2f315b6ec130ffe3
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-03-13
+
+    Fix category names turning off at login. (bug #13422)
+
+commit 85194f1cedebb38e28801f6942f725f1565ffaf7
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-03-01
+
+    Bump version number.
+
+commit ee8bbdda78ab92de9c7cc13577d916a68f1270f5
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-02-28
+
+    I18n: Update translation ru (98%).
+
+commit 625d8fb366ec31b14f6941300916b348610be3da
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-02-25
+
+    I18n: Update translation de (100%).
+
+commit 9b4dbd37d33393a7684d5ed5495ea208d5633e60
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-02-21
+
+    FIXED: Memory leak when editing launcher.
+
+commit 0a01ad83cefdc41915c0d738e3045746ca643fec
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-02-17
+
+    I18n: Update translation pt_BR (100%).
+
+commit e91120467dc4c0978d56b677721bf07244c7cd47
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-02-17
+
+    I18n: Update translation da (100%).
+
+commit 0f527fc6f0612149800388726330679b8738083a
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-02-16
+
+    I18n: Update translation sr@latin (100%).
+
+commit 7cd7933672f01e3e688058375dfa29224082cf3b
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-02-16
+
+    I18n: Update translation da (100%).
+
+commit 6187826462b91cb0c7df1985c7d31485f5ec9528
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-02-15
+
+    Remove git version number.
+
+commit abde03eb8e1d9586165d1a2684c4e0d892a08b1a
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-02-15
+
+    I18n: Update translation ca (100%).
+
+commit e2dd3b2d6faeff11d52434fb562d0fed3c37c8a6
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-02-13
+
+    I18n: Update translation sr (100%).
+
+commit 560b5a37140861e5516ef0db2e6e5a997e5b371e
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-02-13
+
+    I18n: Update translation pt (100%).
+
+commit 395b2b3c164de49de42bc8198e6630ac6192dd2f
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-02-01
+
+    Bump version number.
+
+commit 46b8f7e45015df0095856b6d54866bfa36657ba7
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-02-01
+
+    Update NEWS file.
+
+commit 6971eaaed9c3f3436b66a023fcea136e96d4bd52
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-02-01
+
+    I18n: Update translation de (98%).
+
+commit 03cdee316c55f25ed284e9066138ee8a6b2385fd
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-01-30
+
+    I18n: Update translation fr (100%).
+
+commit 2a1e44084014121721d376fe7b3ca4c0591e7727
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-01-22
+
+    I18n: Update translation es (100%).
+
+commit adb6aadd530cb4d46d4112d4701d93eb25edf695
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-01-22
+
+    I18n: Update translation el (100%).
+
+commit 8a56b4fa020de661f2c9deee31fd4bbecb3b58cd
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-01-21
+
+    I18n: Update translation tr (100%).
+
+commit 314ec4c8c43fffaac6af271cfe0ad0ea0f8c5534
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-01-18
+
+    I18n: Update translation nl (100%).
+
+commit 57c29f8bfd83a57e7a80d61d655f4c8404cf8bee
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-01-17
+
+    I18n: Update translation pl (100%).
+
+commit 157838723ce18953f932ad710cdb2827af3572cd
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-01-15
+
+    I18n: Update translation sl (100%).
+
+commit 07eb59b9edae0ad6a676685d0f3751a2143451bf
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-01-15
+
+    I18n: Update translation lt (100%).
+
+commit 60255034f335d1a7e7dfd0ec14b014ba48ab0ca7
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-01-15
+
+    I18n: Update translation ko (100%).
+
+commit 674712a96b15315decccde4e463bb2628eae55f5
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-01-15
+
+    I18n: Update translation bg (100%).
+
+commit 5dc2fae9318f752cb2e0d5e62236e456ea5bf200
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-01-14
+
+    I18n: Update translation zh_TW (100%).
+
+commit 5464d12fab802dbd9de7bb4cc08f1a04a1b45762
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-01-14
+
+    I18n: Update translation sk (100%).
+
+commit 7e1bc090218bf162e7bcfdc84e45f629d4959d69
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-01-14
+
+    I18n: Update translation cs (100%).
+
+commit 776949c5d9a97ad082cda84a0184a11dd8a7dec8
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-01-14
+
+    Load applications immediately.
+
+commit ae427734af4da2cdb68e94a31aef6cd94c4f9a7d
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-01-13
+
+    Update strings.
+
+commit 79ab1b3492a74f2b3002bed84f69082a37aff182
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-01-13
+
+    Add editing launchers from context menu. (bug #13290)
+
+commit 595f8b87ad17f0d50abfab84471c6eaee87fd826
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-01-01
+
+    Update copyright year.
+
+commit 42404c5374f053c717bbb8e3c666c4952384113a
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-01-01
+
+    I18n: Update translation hu (100%).
+
+commit 2173356890e2df522469baf7c841777de3c28609
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-01-01
+
+    I18n: Update translation el (100%).
+
+commit 8e015ee5bb677fe356058dead6bb069c6764ee39
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-12-10
+
+    Update NEWS file.
+
+commit 8bc0d397a94a53854b9e4a7a50d7390620eadde2
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-12-05
+
+    I18n: Update translation pt_BR (100%).
+
+commit f84850873c4e3e2762fa06106a62b0361287d1a4
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-12-05
+
+    I18n: Update translation pt (100%).
+
+commit 4a1de339b13a60e9886af157ff89bdfb5e3787a8
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-12-05
+
+    I18n: Update translation kk (100%).
+
+commit a78ca447664889a4a6c7477ac915b9d33938c1be
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-12-05
+
+    I18n: Update translation hr (100%).
+
+commit 6acdae1fa9cb7a3a246d3005f070e3d0dbc461fa
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-12-05
+
+    I18n: Update translation es (100%).
+
+commit 6cf72411bd79239a4f736f56ff2d48c4a781234c
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-12-05
+
+    I18n: Update translation el (100%).
+
+commit ef557e9494bac87d90f26a40e50f605ce63fb5e2
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-12-01
+
+    I18n: Update translation uk (100%).
+
+commit a8a11ae75a64c5c88052081291cd30b87fe70503
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-12-01
+
+    I18n: Update translation tr (100%).
+
+commit 30e82e2c3402b84d6d3e43a5ac7192578899fe1c
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-12-01
+
+    I18n: Update translation sr (100%).
+
+commit e49744b5567ecfba7ba2976e8726b7c31e1097ee
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-12-01
+
+    I18n: Update translation sk (100%).
+
+commit 957f40a6ff577361ef5cad5d283201c6abf23191
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-12-01
+
+    I18n: Update translation pl (100%).
+
+commit d9773c4c3d5c6aa524ada363c39688235614d1d4
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-12-01
+
+    I18n: Update translation ne (100%).
+
+commit ab5741357eb7def29cc69886e4546e6c7c4ea25b
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-12-01
+
+    I18n: Update translation nb (100%).
+
+commit ac7b94b1fffc081bf44ae770528fb9eeb67454bf
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-12-01
+
+    I18n: Update translation ko (100%).
+
+commit 94a99274dd7a23274d19a39028b24d3bb1f54df0
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-12-01
+
+    I18n: Update translation fr (100%).
+
+commit 22cfc4dc11c1fe489a7dc6c809afc84720962b2f
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-10-29
+
+    I18n: Update translation zh_TW (100%).
+
+commit 8a0329c642dc1bd2593a63f8d0578940e7ece6ab
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-10-29
+
+    I18n: Update translation bg (100%).
+
+commit 9a91d76e351297190abb2f6f12eac53806459e09
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-10-25
+
+    I18n: Update translation nl (100%).
+
+commit 2b39ebdbdb24599d3521579792fb06951c08444d
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-10-25
+
+    I18n: Update translation lt (100%).
+
+commit 85b7c58f9382421dd4d1b2e24b10156168a9be35
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-10-25
+
+    Replace deprecated code.
+
+commit 65f616022646c6fdbad80ce78d6beb4e44d90b72
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-10-25
+
+    Replace gtk_menu_popup().
+
+commit cb95442b745b8f8b9d2928a49601ed1d99b5f19f
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-10-23
+
+    Add support for desktop actions. (bug #11787)
+
+commit bda7f7c4becd53ab043d88412923f4c2d73ef32e
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-10-23
+
+    Replace duplicated code.
+
+commit 0937210d12fc7462600334fca600dd0326f40f4f
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-10-23
+
+    Update strings.
+
+commit 3c4fdbd06d12428314be0b4119a0b777aaf6dfe1
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-10-19
+
+    Add option to hide category names.
+
+commit 81cbe759f7f4107b85f6dcdd2f67bc771f89bc17
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-10-17
+
+    Update NEWS file.
+
+commit a4d311f052743a5b2a7755556aecfef2dc8f5543
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-10-13
+
+    I18n: Update translation uk (100%).
+
+commit 27f49bec4a9d02aece8f1413d157b78aae8ff33e
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-10-13
+
+    I18n: Update translation pl (100%).
+
+commit 772fa7ceeab484537da1d84b3789dd9026fb45dc
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-10-13
+
+    I18n: Update translation ru (100%).
+
+commit d7fe4658a5d8bc60640df48185e2e813688331ea
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-09-21
+
+    I18n: Update translation eu (44%).
+
+commit a9b31a7cccbcb16ffef748e288670b3638bb7935
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-09-21
+
+    I18n: Update translation zh_CN (92%).
+
+commit 9cf65ac3fd86617b61467d127ef0619aea16f3e8
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-09-21
+
+    I18n: Update translation ast (98%).
+
+commit c6370689dc5d995828c8b9751d2ed19e1b3712bf
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-09-21
+
+    I18n: Update translation lt (100%).
+
+commit 24f7c01392dfce48ae184ebe9537a34a8c5502e8
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-09-21
+
+    I18n: Update translation kk (100%).
+
+commit 302248beb6e1b94a6400747bf2d29dd308886317
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-09-21
+
+    I18n: Add translation ca@valencia (100%).
+
+commit 9613ee0698cd34dca6742e93e0f5356c9172483c
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-27
+
+    I18n: Update translation tr (100%).
+
+commit 71eabc08b079da63d0ff4d1730aa48c956421d83
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-25
+
+    I18n: Update translation uk (100%).
+
+commit cfc141b89fde5b9ad08288315b5d74fc62397815
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-22
+
+    Update NEWS file.
+
+commit 02c1a098455cd139b75d1e7594526b39abde7067
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-22
+
+    Set minimum GTK+ version to 3.12.
+
+commit 805531678bf43e0a329e04167c6827c3b5f6b3c2
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-22
+
+    Support GTK+ less than 3.20.
+
+commit 08e72c72c5a2b6102bf933bca159ba907bac094d
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-20
+
+    Add git version number.
+
+commit 2f74f1e8866e6f08d3e34909d5503e1b23960d68
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-20
+
+    Bump version number.
+
+commit 214902acd0f71e4653f74c829aa7de808edaa338
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-19
+
+    I18n: Update translation fr (100%).
+
+commit aed929d497d98c3067b5eaa7e5b3ab826c24e1f0
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-18
+
+    I18n: Update translation hu (96%).
+
+commit 9b3193b4a60559a0596f1f68bf26575abe11000a
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-16
+
+    I18n: Update translation pl (100%).
+
+commit 1aed94e765c3ab8c8ad5ab837bf78ccd60d4a6de
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-16
+
+    I18n: Update translation he (98%).
+
+commit 66900f730a357e92674a8972b763b66fa8d767c5
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-14
+
+    I18n: Update translation nl (100%).
+
+commit 7321b49b7bbfc5a88392955d80b375a5f28c1b98
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-14
+
+    I18n: Update translation es (100%).
+
+commit fbc1f33f1c2107a5739e7ccc8ff2addf6d10790d
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-14
+
+    I18n: Update translation ca (100%).
+
+commit 34a2b41fc2628cf3a51eec96f58e75a9c17938e8
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-14
+
+    I18n: Update translation sl (100%).
+
+commit 0cd43369577da032027d4f63d699e819566ee8e2
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-14
+
+    I18n: Update translation bg (100%).
+
+commit 43ff24ef57f6183ec567d91731568be8dedaf872
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-14
+
+    I18n: Update translation zh_TW (100%).
+
+commit 1775aaf9185286ad3a4cbfb01cb336b9447d1072
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-13
+
+    Fetch fallback translations from GTK.
+
+commit a578d9a8879d8b0b39641c3d21d33dc8de33186a
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-13
+
+    I18n: Update translation sk (100%).
+
+commit d6ecab000c228255ed9d6e5f108f2cde0bec8d98
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-13
+
+    I18n: Update translation lt (100%).
+
+commit 76b28acd43a8dd9b5db30893eefe6b288bdd2c5b
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-13
+
+    I18n: Update translation cs (100%).
+
+commit bb10a730aeeabca2007e8d20be18d83a8a5752a5
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-13
+
+    Update strings.
+
+commit a121bf6c55aa945c4334629a0294a5c9b018be86
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-12
+
+    Ignore GtkImageMenuItem deprecation.
+
+commit d142ec2b999fc526f0679bc7b14b947ab9981189
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-12
+
+    Replace GtkStyle.
+
+commit 348316a1fed1427ea5b23c88bca89dabff8a583e
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-12
+
+    Replace gtk_widget_size_request().
+
+commit b83e05ef51ebadc8a5d1fe9d88c4acd6f714ecae
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-09
+
+    Replace deprecated pointer grab.
+
+commit 1aa9b6f36028fd792ba6747e2fcb8fb3eae3cf77
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-09
+
+    Replace gdk_display_get_pointer().
+
+commit f8fdb5797a30f62f8cbe286dd6d4a57eb5eb28cd
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-09
+
+    Replace deprecated drawing code in window.
+
+commit fd1c8c7584889257365f69ebdf4cb3dc1f1e8ca0
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-08
+
+    Replace GtkHSeparator.
+
+commit 291df4b543a36404e1a25cfcebea35486cc9f1b2
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-08
+
+    Replace GtkAlignment in window.
+
+commit c40dcec445c0782b5b95a2da59cd22af502ad24e
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-08
+
+    Replace deprecated drawing code in resizer widget.
+
+commit 155113a0630287a5e580daaf6399b41953d2e0e8
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-08
+
+    Replace gdk_cursor_unref().
+
+commit 650c469f59a2c65d77aac9cadcf28d799b9f8549
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-08
+
+    Replace GtkAlignment in resizer widget.
+
+commit a7c2a6640e68e56f3e1868018eb8b814a87125b5
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-08
+
+    Replace GtkAlignment in profile picture.
+
+commit da63d65d767a1755fed64ba1c53e8c8df6a87987
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-08
+
+    Replace gtk_widget_get_state().
+
+commit c896212e7e21d34d62a2b6a44845dae751c86b19
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-08
+
+    Replace gtk_button_set_focus_on_click().
+
+commit 7f874b5cfe341865892506bd24d831f6afa3ecd8
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-08
+
+    Replace GtkHScale.
+
+commit 7220bb89fa0d4291b0e6b78cf03c7daae3dd91b2
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-08
+
+    Replace GtkAlignment in configuration dialog.
+
+commit cdb7eff4ab4e8b53a6dd000c357a5dbea413b98a
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-08
+
+    Replace GtkMisc.
+
+commit b21386a1985e80a1fad4b7b11461790ae98e02aa
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-07
+
+    Replace GtkTable.
+
+commit 49cb0183b5d79f10a635aaf98a3a3b9733ef3ca9
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-07
+
+    Switch to GtkBox.
+
+commit b6192a87492d91fd2d836e76eb1d628a2c10ec5e
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-08
+
+    Remove deprecated code.
+
+commit 1dd3dcab64755cd1066b0980dfc979d8486b2fd4
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-07
+
+    Compile with Gtk3.
+
+commit fcf0d5c328c772887fbccb413b5db263b10c7a60
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-07
+
+    Require Xfce 4.11.
+
+commit c730efde584f3d09d7671cf5969a9fd8d9441f0d
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-20
+
+    Add git version number.
+
+commit d85c3caf38b753784d34d6dc008a9c724922d411
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-20
+
+    Bump version number.
+
+commit 04ab53d29d5a4985080dd58037339a706b192b1c
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-18
+
+    I18n: Update translation hu (96%).
+
+commit d6eec65bdcaee15294e882f290d34be435215080
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-14
+
+    I18n: Update translation nl (100%).
+
+commit f01a37fd22073978107a3a17fba2b4ec509af320
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-14
+
+    I18n: Update translation ca (100%).
+
+commit c3d94fe2f8c76b3dec8f5f58908cb53b43f657ed
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-14
+
+    I18n: Update translation bg (100%).
+
+commit 0c58dc524f3dae7b5ad60baf08a1ea27769c5dea
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-12
+
+    Only force width when commands are next to search.
+
+commit dd4bf3e50be37e9521b6ffb47361aada95bd8d6c
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-12
+
+    Rename sidebar buttons box.
+
+commit e1f8d487dece2fa89b549b87c4280eb6851f47ef
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-12
+
+    Remove unnecessary GtkBox around window.
+
+commit 65148d48a0d37cc5fcb2742ebb97a3dd4bcd6d1f
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-09
+
+    I18n: Update translation zh_TW (100%).
+
+commit 3d1c75ea8da7a3bff7e482642a8c80b5d28d5e9f
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-07
+
+    I18n: Update translation bg (100%).
+
+commit 50a56420c627125ddb197c04bb8a822c851aed22
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-06
+
+    I18n: Update translation pl (100%).
+
+commit ed21018fdaed723f1b9ef6c3a37d1558492d3f11
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-06
+
+    I18n: Update translation fr (100%).
+
+commit 2974d75a69ca89f2a12e021b8cd90b5892ea7d83
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-06
+
+    I18n: Update translation de (100%).
+
+commit 3f042bf19a71429f3bde38842aa4325cc3605b71
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-06
+
+    I18n: Update translation he (98%).
+
+commit 68beacfde1a53d9c3e8c6aeb3da1caa6f0cadfcd
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-06
+
+    I18n: Update translation bg (100%).
+
+commit 33dc3ab7167260a4b2c0db216d48010cccb97022
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-05
+
+    I18n: Update translation es (100%).
+
+commit 27de757577cafe70087db6e7910215235da1b2bb
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-05
+
+    I18n: Update translation cs (100%).
+
+commit b448c99d386cf40f1071754553806ddcc1962fc3
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-05
+
+    I18n: Update translation ca (100%).
+
+commit 0e158c80ae546e2eb53614f2c47cdb62b0831e0e
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-05
+
+    I18n: Update translation sr (100%).
+
+commit fdc7b0ed9a88cb7a2352bcb82b5c887138dcd2b4
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-05
+
+    I18n: Update translation sk (100%).
+
+commit 4a8e4cd6f9f5c0029d5d3c4f61c30489432fee54
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-05
+
+    I18n: Update translation nl (100%).
+
+commit 79e96fd744608a8c04f499b65b72382e767ea533
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-05
+
+    I18n: Update translation lt (100%).
+
+commit c1cca4aad0200b316587291c1165ba00dad62969
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-05
+
+    I18n: Update translation sl (100%).
+
+commit 97748c7a5a5b2ab7ec76f0a78f7bf43cd784effb
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-05
+
+    Update copyright.
+
+commit 3db99b41a0246a7f97defe6b1102a08d373020a4
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-05
+
+    I18n: Update translation sl (100%).
+
+commit 5d9596be9caa95aec6271d4c28c6da5069b38724
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-05
+
+    I18n: Update translation nl (100%).
+
+commit a0b7b7218e5d2e0774f6f29e95779bcb43336c1c
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-05
+
+    I18n: Update translation es (100%).
+
+commit 0e1f190b65ffda3bee90ca2b089cd87336ab8a08
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-05
+
+    I18n: Update translation ca (100%).
+
+commit 511f64c76ae6a055b62ccb86648c219e7cbd1743
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-05
+
+    Update strings.
+
+commit 91791ca010142837d3fbc5efc17fa7ca4c41aa08
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-05
+
+    I18n: Update translation uk (100%.)
+
+commit 21cacfad56811b032b7abfdc9c5b0003836a6b8c
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-08-05
+
+    I18n: Update translation ca (100%.)
+
+commit 01f8a45d37ad956ae8b788fcd5d1c20202e477d8
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-07-17
+
+    Add tooltips for program descriptions. (bug #12379)
+
+commit 593e70ba99af30067d3c796805be8590ffd24ca2
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-07-17
+
+    Prevent memory leak when changing element text.
+
+commit 7f0f34c97bfc5fc2bfeb24420aa9f3b6506904ab
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2016-04-16
+
+    Update NEWS file.
+
+commit cc16833a4bd32f3c71fb70086a6bc30a57a2e4f9
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2016-04-16
 
     I18n: Update translation nl (100%.)
 
-commit f51d62df942af6e9a297008425bfc666f286d224
+commit 1a6b56deb00b5c79a72449e37b471e4221e73e03
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2016-04-16
 
     I18n: Update translation lt (100%.)
 
-commit 50419d41dde570501d7c98ce40a8646ef5471fb5
+commit 91c93ce3d3e0f706368b30ce28ce9564c8673f62
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2016-04-16
 
     I18n: Update translation ko (100%.)
 
-commit eca1457fe78c7cdd529a3a309be430c96224628f
+commit 7d6b0e93716c4d489f2545b71caa45207955bcb1
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2016-04-16
 
     I18n: Add translation is (100%.)
 
-commit 423f2d7151593b6c071f59c7718375c427c4ff9c
+commit c8efa2d38a88fb21320c97fdbbbe7a66a47631c3
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2016-04-16
 
     I18n: Update translation he (100%.)
 
-commit f3237e45dbba3a6f008ee4cba90dcb14155dade6
+commit 935b0812a24c80f98c6c851fa3cadcd62e23c006
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2016-04-16
 
     I18n: Update translation eu (16%.)
 
-commit 0ef821dac3235552b4e704230fff08b59d0649f3
+commit 3b414eaea5b970e21ec4d09b8fec878d764287ee
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2016-04-16
 
     I18n: Add translation am (100%.)
 
-commit 56af96df8705cc4aa4292870601ae372943e5737
+commit 4f732a1b63595aa6745409bd403e0ca098e20dcd
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2016-04-15
 
     Fix stuck button highlight. (bug #12402)
 
-commit 39e6653c9bc78725114a6b568ed88b613a966bb8
+commit d643f54344a00db479fe47a37c77c98862ef7e68
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2016-04-14
 
     Fix losing categories by reverting single garcon instance. (bug #12541)
 
-commit b1d54066640f00b51579929ac3706cd0b2fd5eb4
+commit ffd8fb1bcd3ecc2ecf0bf909a86b02b249dd8602
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2016-01-06
 
     Fix warning about infinite recursion. (bug #12398)
 
-commit d08418c8d55edfacef190ec14e03e1e9a6988101
+commit 7aafdbfb09a10f17daac7879f94432a80aa77e6a
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-12-29
 
-    Bump version number.
+    Update NEWS file.
 
-commit 325e4537017193e9afa0f2fb09da4487db051dc3
+commit affc072aaed14d9f7937a330a969a4ce570fc890
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-12-29
 
     I18n: Update translation zh_CN (100%).
 
-commit 91cbc1ff9886090b4622cc03d8b5f27b48f04e55
+commit 56470035a8fd33135487235cc5c8b956d95068ca
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-12-29
 
     I18n: Update translation ro (100%).
 
-commit 605b4837214cff3a1c9c36a7497ca8104c977fff
+commit 6ab4188bb2ecdeb30cc68d605f77022e9990a8ea
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-12-29
 
     I18n: Update translation lt (100%).
 
-commit ede41d17f74b66d9fc7876d7d6eb9a7a461914d1
+commit b4da1b25085e0fadb96d4c774e7a1b269c971b61
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-12-29
 
     I18n: Add translation ko (100%).
 
-commit 2e4ce0f8c73c0d7879183c57602539dd4e450726
+commit 497c1496a5520c88b42a558673b38d280fa52cc5
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-12-29
 
     I18n: Update translation hu (86%).
 
-commit ca86bef9cf44d310d80cf3b06766ab0a9d11cf1e
+commit fd55bb0703c279e6965fce75bae08d0ae24ab418
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-12-28
 
     Fix minimum window size.
 
-commit 9e36eb65e2bc2950f34b9ae7ab7f09e07fa62a79
+commit efc69979d114a181fac1d919c49ee91de7055d19
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-12-28
 
     Fix menu shrinking unnecessarily. (bug #12246)
 
-commit ce57a2f2270b1e6347954b15ba101a5049c09c90
+commit dde745f5f26f85152b5b11e088c8d18c37205a2b
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-12-27
 
     Fix limited input length for search actions. (bug #12381)
 
-commit e254b9c66e785aa5c663df6994586c2f9596bf36
+commit 3f3ebe76131fa0cdeccbc4f7f349e12bb575cdb3
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-12-26
 
     Fix modifier keys resetting focus to search entry. (bug #12378)
 
-commit 18c31a357c102ab38e98ac24c154f9e6187b3ef8
+commit 2d52bdf31abad675eca1911f7a6f9cb7d90fc496
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2015-11-12
+
+    Fix matching run action before generic names. (bug #12306)
+
+commit 020fda40e840d53360ad8621f272f8d02995d820
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2015-10-09
+
+    Only show recent button when recent items are tracked.
+
+commit 6f2dfc4122603c88471b334c9f61f793e3fa8bd8
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2015-10-08
+
+    Use non-legacy icon names.
+
+commit a0536da3ad77a72a980f2d81df0c7b8caf0e106f
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2015-09-22
+
+    Add default action for searching the web. (bug #12106)
+
+commit a8dc59118a36b4351c568bef03d10f96588ea522
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
-    Bump version number.
+    Update NEWS file.
 
-commit 7557643a8632f882514c2029beafaddb40aff9fe
+commit 6833e2e10f4bb4c7ec8c734da8a9264c03671db4
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation zh_TW (100%).
 
-commit 0f1e13a50729385e0716f2ebe289d37c497d2411
+commit caf5dd6d2a1f75ec55421e11fc7cd187822d0e2c
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation zh_CN (91%).
 
-commit 8b715a3c1fc538cbd4eae9c139f8b006a65e3810
+commit b4d7106df01b0cd2ecefef68c278e47e54ff66d5
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation tr (100%).
 
-commit 0ecbfabc87cef8c5946f392c4fc292a9f7e7b935
+commit caa8b1e250a72b17da6796a912139c11e3820310
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation sv (100%).
 
-commit 0243e57ccec0df3805c5a0b7d5db7a25c34f4ec2
+commit 627a71d642c98718d5c5b2a829b11deebb6accbd
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation sr (100%).
 
-commit b3b8914b7146e26b5b94c3c28ab4758096460e85
+commit cfe58f6fef8722dd7513b3367b0eca339c2151e2
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation sl (100%).
 
-commit 4a392d51a2b0595b6801d46c45b301ba8ae2f910
+commit c027e8549d644727cb277639d55cf22552d0ed26
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation sk (100%).
 
-commit e447fdefe626b18166fc23660d4e4cc261b05aa1
+commit 6c8ea97892dca88a1ee6aa5e78b0976ab7bea276
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation ru (100%).
 
-commit 59d258398e6bbf9a425e281781aab150558141ad
+commit 29f800802f0362e907775a5ded8c5912c13b5897
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation pt (100%).
 
-commit ff1b9be84ed69adba10afcfa81eb00d0bde5cf87
+commit a3b69d623ef9ebedf90f9012f0f88fd21e04ca6a
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation pl (100%).
 
-commit 2429ce616f929d226599735ea5f7012b7b720351
+commit 648340070101a7350da6eebb30d373a41a81900b
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation nl (100%).
 
-commit cb32f8c1be6c825c69be1ad4d2760499fa181eb8
+commit 1e1a5501f25911dae9b29d77dbb3f4761ca994dd
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation ne (100%).
 
-commit 1e9c1e3e259bd8bacd80e3d0dfd4d469a6b2cd03
+commit f54f6c43457fb6817316f7a8a074c7b508d2c42b
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation nb (100%).
 
-commit 267c4729651cd56bec2efcd4bb48f43cee51b471
+commit e8d048657e3fb155c0c4d57f42927af3e0675e0a
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation ms (100%).
 
-commit 3f9180089a9d9e8f67ad94ecdc3763b36d5123b9
+commit cc3704f2a28f1242cecc99eaf3646330f49e6eb4
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation lt (100%).
 
-commit e5c5e75c716a29bb1602869d8b09a4b9b1880057
+commit aa9de3d7e9a6c72de8b106e20a6f6c36ac4e3d73
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation kk (100%).
 
-commit d83b7e1395c16948ab878d487af5fe4131eb1831
+commit 004e030f147bc0d27f0ab5e8949f56a3d083f763
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation ja (100%).
 
-commit ed2cb7418167a1f522fb75d9429dcc9075d85921
+commit 04213b2cd9f3b6ef0c2c7fcd1bc0df3e27d14840
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation id (100%).
 
-commit 0b6135651a230ce8c5a80eb64afe3f5c0f32e0d1
+commit 10020e4f82cc0f1477fdec4d891144001ac373e9
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation hr (100%).
 
-commit b3ea7ad12a285d0c4ac57458e4e2e32455874044
+commit 244a24b3fb4b12701cb59bd611b2b4dc640a9e3f
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation he (98%).
 
-commit dde24d278f0b77fd29fc0b546b1fbd5db9007d4b
+commit 331fac057fc18cc3d2ef21f462efed146f09f5b7
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation fr (100%).
 
-commit 8e012f3cbabbd8e34eab90decaa55caeb38a9305
+commit 158ade063e0e919ebc4e6ec2c17413653525d500
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation fi (100%).
 
-commit 1bc022b7cde2f7f5a765919239a72c09a6049ba6
+commit fce79a64a86a9ff69c8791264175607b7e670dc4
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation fa (100%).
 
-commit fbe69dba2e75b3a5110335c6b3b98b751da0fe99
+commit aa99dc9ef98ff68915fa7d32f0b001c48968d5d6
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation es (100%).
 
-commit ff53919523ea145027b302ed3d1c2d9e967c409f
+commit 6b5599878981899b7bcca6ce4084ae91fc2da79c
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation de (100%).
 
-commit fd960221ee3f702b5639427552dd60784ac8db98
+commit 44497017bd87ed9273cd42be065ca59b80b92186
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation da (100%).
 
-commit e929e62ec2161bce46669bac2183f85caa3e9415
+commit c68e24c9e95cf8f0f125ceeb6918f36bd4fb99c8
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation cs (100%).
 
-commit 5c13c138bc88e31f000310b969b54143b170b706
+commit d488990be354749004091ad150e9b10c594f8227
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation bg (100%).
 
-commit d75c11bd7a32d53b036bef0208a6b3011b029334
+commit 208ac6ceaedc51d41bdf7f30a28da9015f25a6e2
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-09-21
 
     I18n: Update translation ast (96%).
 
-commit 10b9f0c04267cf4e9352d0130329db7cee960a3f
+commit 3ed8b3e748b4fa5b03fed5e07a2b6f37c6a18d2e
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2015-09-21
+
+    Prioritize favorites and recent in search results.
+
+commit ab9846b6e60a265ef382a203cd98fe0b64e6c71c
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2015-09-21
+
+    Sort matches in executables last.
+
+commit 4b14b76a46fa8cc0aae2b28a2d8367a167bd2832
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2015-09-21
+
+    Use bitmask to sort search results.
+
+commit 68b227d18a8987889e1485ec54493c01d5727619
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2015-09-21
+
+    Use unsigned integers for search result relevancy.
+
+commit 8c25adcf88908386f94bcff09e76d7f80a8610ed
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-06-15
 
     Fix not searching descriptions.
 
-commit 408863b73d664a121600e26232384fb52b43dbb2
+commit 2d3c03eacd78051d2ef8ee3b6a4e2bff4753680e
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-06-14
 
     Fix window being draggable. (bug #11908)
 
-commit 8508f8d81cfe9e0e597a389914d00eee6b85b31f
+commit af5e8af6f92faad479bb90bf41dfb50f8210b376
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2015-03-20
+
+    Add keyboard navigation for categories. (bug #11550)
+
+commit 56ca267390da85413dc3cd214ac4587e6f6d03f2
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2015-02-21
+
+    Always show description if available.
+
+commit d6a9cb2c0852cf781cee5e33b71d13024cb756c3
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2015-02-20
+
+    Replace stock enum where possible.
+
+commit 50c1e093f26dec7c0c1d85ac6077af47cfbe5e46
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-02-20
 
     Update strings.
 
-commit 958c7069c0324ef0ff7dfa9f12417d35eacb22ef
+commit 1502c721387f38940ae70658979bed2c531add79
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-02-20
 
     Update URL to point to goodies website.
 
-commit 74133209d3a53f2d6367eaaff590749fb9906564
+commit 97e9800b97f6696c6078f4fe8c2faea94cbc52d9
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-02-20
 
     I18n: Update translation sv (100%).
 
-commit 99eea782ef7de18d570fc017e5019bea858820e2
+commit 52a4fc498ecc85293d5dd889569ed7151aeda5c7
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-02-20
 
     I18n: Update translation ne (100%).
 
-commit b49ef9bfda8d520f9123c5c7ccb5ad26de1a1933
+commit e5c28c1f7275b899280555b7ad8e53f895eb4ad0
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2015-02-20
 
     I18n: Update translation fi (100%).
+
+commit 1f64cccc698dbf587957f9f9493b74262bf81097
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2015-02-20
+
+    Show name as description when showing generic names.
+
+commit ff51320d83908dbed0aad9ccd9f47c4fefa2c7f2
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2015-02-20
+
+    Sort character matches after substring matches.
+
+commit 5190bf581ff71858d5c3dd3d4396fbb529d48f0a
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2015-02-20
+
+    Search generic name as well.
+
+commit 632f9ed6be380a35dcc9bd645c02979763f501f2
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2015-02-18
+
+    Add git version number.
 
 commit 623bdb1cb69be38ef8c9933649121e6545e9377d
 Author: Graeme Gott <graeme@gottcode.org>
