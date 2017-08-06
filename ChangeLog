@@ -1,3 +1,105 @@
+commit 911f362ea6cd3b7a1ee8cb7ac32a21bb6ae09bb6
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-08-05
+
+    Bump version number.
+
+commit 9544778fa442b8f715fa3749e649d2df34670b82
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-08-05
+
+    I18n: Update translation ca (100%).
+
+commit 1db007b3bf91c8e9e6395ffae18ceb7588feb61b
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-07-27
+
+    I18n: Update translation pt_BR (100%).
+
+commit 7c06bb4a5137fc0c2897e28d252ec71d976cdd1e
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-07-27
+
+    I18n: Update translation pt_BR (100%).
+
+commit 46876d12101833cfe8413cca71a84c5ee4393d2b
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-07-26
+
+    I18n: Update translation ne (100%).
+
+commit af7aeff0f4f2430ac2b1c6e21486916ec8eb860c
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-07-26
+
+    I18n: Update translation es (100%).
+
+commit 16b81b4ee3eac01af17ae75cc89230112dcad4d0
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-07-15
+
+    I18n: Update translation pt_BR (100%).
+
+commit 5e5de8f7cd5a1ef9c53b403013722c3df486a91c
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-07-15
+
+    I18n: Update translation lt (100%).
+
+commit 608c0dc79f844c43baba900c2986659b15f0994e
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-07-15
+
+    I18n: Update translation de (100%).
+
+commit 5b964fdf57c6c34e111fca17830473d2b6fafdd2
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-07-15
+
+    I18n: Update translation ca (100%).
+
+commit ec5500018ce704f21bce8d70d76d2e34faa8feef
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-06-20
+
+    I18n: Update translation ru (100%).
+
+commit 1ae358d4f1083505eaae5106bf6ab9ec7e4210de
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-06-14
+
+    I18n: Update translation tr (100%).
+
+commit 96c9ec5b0e70764f75a402b439a5fbb5baecb3fc
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-06-14
+
+    I18n: Update translation pt_BR (100%).
+
+commit 3b945ff6d50852738c974a1d35df438dcd9877bb
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-06-02
+
+    FIXED: Desktop action incorrectly parsed escaped k.
+
+commit 810715c467927f8b39d29954cca8b6aeac753503
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-05-09
+
+    I18n: Update translation zh_CN (100%).
+
+commit a2cb864eb3ba8f0856572c53f0e3d64a5b7dd012
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-05-09
+
+    I18n: Update translation pt (100%).
+
+commit 296c258812a0900032d0c15406a7ffefc9a0631f
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-05-09
+
+    I18n: Update translation it (100%).
+
 commit 2a6ef2a3d59894681897d6f2ab3581f03570ac1d
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2017-04-04
