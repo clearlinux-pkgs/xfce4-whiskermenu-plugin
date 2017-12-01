@@ -1,3 +1,105 @@
+commit 85bef962cce108eb2dbe566a18b9a7ad215f9d59
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-11-13
+
+    Bump version number.
+
+commit ff30a6ebd0c1660783539367b492962e8882a79b
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-11-13
+
+    I18n: Update translation da (100%).
+
+commit 720f0ecf095182b7d2629555c2eaa1fa300a294b
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-11-10
+
+    Use stepped icon sizes for small panels.
+
+commit 87de296c4466c0cc9fb94442c473c953fc51bf9a
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-10-20
+
+    Fix clipped panel icon.
+
+commit 3c6f5cb45c367026663bfdd1c6f4bcbe772d4542
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-10-18
+
+    Fix excessive padding on panel button. (bug #13611)
+
+commit 058e05bc6f8b5f42c76557b1a500969072c50946
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-10-13
+
+    I18n: Update translation sv (100%).
+
+commit 8b3ff75330ba8ee1c219ac9c1747cbd4a7350eee
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-10-13
+
+    I18n: Update translation ru (100%).
+
+commit 11ea46af356389c0349cefaad6c023b07cbd4723
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-10-13
+
+    I18n: Update translation nb (100%).
+
+commit 47f3d1a13e67a63b8d24e5b9accca62fabff3550
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-10-13
+
+    I18n: Update translation lt (100%).
+
+commit c69dd59e6b54fc0920b5e95be367f098abf48eb3
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-10-13
+
+    I18n: Update translation hu (100%).
+
+commit de900f75be9bf628988b3026323bd2022637dcb4
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-10-13
+
+    I18n: Update translation he (100%).
+
+commit b9a9f3b2f75ee322af01861c5b34959c3e176302
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-10-13
+
+    I18n: Update translation da (100%).
+
+commit 68c83f0e81ad035da8bdfb1bd5b51660320e2bc7
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-10-13
+
+    I18n: Update translation ca@valencia (100%).
+
+commit 23309a433e8a07ef1efd6aa8f6f7a9ccaba6e224
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-10-12
+
+    Fix blurry category buttons with high DPI.
+
+commit 72425d1386e6cead4a2cb62980cbc962028bacae
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-10-12
+
+    Fix blurry profile picture with high DPI.
+
+commit 07426364cad771994c7d52985e897e5d3c36e508
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-10-10
+
+    Fix panel icon too big with high DPI. (bug #13893)
+
+commit 8863ce60ae15fb10daf9d0b6a94de2d615434e1a
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-08-10
+
+    I18n: Update translation pt_BR (100%).
+
 commit 911f362ea6cd3b7a1ee8cb7ac32a21bb6ae09bb6
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2017-08-05
