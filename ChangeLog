@@ -1,3 +1,45 @@
+commit 4e9f2cdfee78b68bf9ad0a373675de2a3156eb34
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-12-28
+
+    Bump version number.
+
+commit 411940a990c1ee41ac4e6371b36ac1d44203f5c8
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-12-24
+
+    I18n: Update translation ro (100%).
+
+commit ebd05f96eeb76bae2a1cc670475d7d721e524eb2
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-12-24
+
+    I18n: Update translation ms (100%).
+
+commit 33f3820deee69408daee547256153e308b3f373e
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-12-24
+
+    I18n: Update translation ja (100%).
+
+commit fa98f9ea86793e7012d753a09cb0ad4570ff09e2
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-12-24
+
+    I18n: Update translation da (100%).
+
+commit ede867021eaf5c744a13b66353f3d4376e0b747b
+Author: Graeme Gott <graeme@gottcode.org>
+Date:   2017-12-24
+
+    I18n: Update translation am (100%).
+
+commit 53098dcfbf23335d5e996cf6e9de35b5eaa047b2
+Author: Olivier Duchateau <duchateau.olivier@gmail.com>
+Date:   2017-11-13
+
+    Fix typo. (bug #14001)
+
 commit 85bef962cce108eb2dbe566a18b9a7ad215f9d59
 Author: Graeme Gott <graeme@gottcode.org>
 Date:   2017-11-13
