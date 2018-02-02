@@ -4,7 +4,7 @@
 #
 Name     : xfce4-whiskermenu-plugin
 Version  : 2.1.5
-Release  : 15
+Release  : 16
 URL      : http://mirror.netcologne.de/xfce/src/panel-plugins/xfce4-whiskermenu-plugin/2.1/xfce4-whiskermenu-plugin-2.1.5.tar.bz2
 Source0  : http://mirror.netcologne.de/xfce/src/panel-plugins/xfce4-whiskermenu-plugin/2.1/xfce4-whiskermenu-plugin-2.1.5.tar.bz2
 Summary  : No detailed summary available
