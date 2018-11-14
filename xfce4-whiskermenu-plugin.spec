@@ -4,22 +4,30 @@
 #
 Name     : xfce4-whiskermenu-plugin
 Version  : 2.1.5
-Release  : 17
+Release  : 18
 URL      : http://mirror.netcologne.de/xfce/src/panel-plugins/xfce4-whiskermenu-plugin/2.1/xfce4-whiskermenu-plugin-2.1.5.tar.bz2
 Source0  : http://mirror.netcologne.de/xfce/src/panel-plugins/xfce4-whiskermenu-plugin/2.1/xfce4-whiskermenu-plugin-2.1.5.tar.bz2
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GPL-2.0
-Requires: xfce4-whiskermenu-plugin-bin
-Requires: xfce4-whiskermenu-plugin-lib
-Requires: xfce4-whiskermenu-plugin-data
-Requires: xfce4-whiskermenu-plugin-locales
-Requires: xfce4-whiskermenu-plugin-doc
-BuildRequires : cmake
+Requires: xfce4-whiskermenu-plugin-bin = %{version}-%{release}
+Requires: xfce4-whiskermenu-plugin-data = %{version}-%{release}
+Requires: xfce4-whiskermenu-plugin-lib = %{version}-%{release}
+Requires: xfce4-whiskermenu-plugin-license = %{version}-%{release}
+Requires: xfce4-whiskermenu-plugin-locales = %{version}-%{release}
+Requires: xfce4-whiskermenu-plugin-man = %{version}-%{release}
+BuildRequires : buildreq-cmake
+BuildRequires : gettext-dev
+BuildRequires : pkg-config
 BuildRequires : pkgconfig(exo-1)
+BuildRequires : pkgconfig(exo-2)
 BuildRequires : pkgconfig(garcon-1)
 BuildRequires : pkgconfig(gtk+-2.0)
+BuildRequires : pkgconfig(gtk+-3.0)
 BuildRequires : pkgconfig(libxfce4panel-1.0)
+BuildRequires : pkgconfig(libxfce4panel-2.0)
+BuildRequires : pkgconfig(libxfce4ui-2)
+BuildRequires : pkgconfig(libxfce4util-1.0)
 Patch1: 0001-Show-the-menu-label-by-default.patch
 
 %description
@@ -35,7 +43,9 @@ the last ten applications that you've launched from it.
 %package bin
 Summary: bin components for the xfce4-whiskermenu-plugin package.
 Group: Binaries
-Requires: xfce4-whiskermenu-plugin-data
+Requires: xfce4-whiskermenu-plugin-data = %{version}-%{release}
+Requires: xfce4-whiskermenu-plugin-license = %{version}-%{release}
+Requires: xfce4-whiskermenu-plugin-man = %{version}-%{release}
 
 %description bin
 bin components for the xfce4-whiskermenu-plugin package.
@@ -49,21 +59,22 @@ Group: Data
 data components for the xfce4-whiskermenu-plugin package.
 
 
-%package doc
-Summary: doc components for the xfce4-whiskermenu-plugin package.
-Group: Documentation
-
-%description doc
-doc components for the xfce4-whiskermenu-plugin package.
-
-
 %package lib
 Summary: lib components for the xfce4-whiskermenu-plugin package.
 Group: Libraries
-Requires: xfce4-whiskermenu-plugin-data
+Requires: xfce4-whiskermenu-plugin-data = %{version}-%{release}
+Requires: xfce4-whiskermenu-plugin-license = %{version}-%{release}
 
 %description lib
 lib components for the xfce4-whiskermenu-plugin package.
+
+
+%package license
+Summary: license components for the xfce4-whiskermenu-plugin package.
+Group: Default
+
+%description license
+license components for the xfce4-whiskermenu-plugin package.
 
 
 %package locales
@@ -72,6 +83,14 @@ Group: Default
 
 %description locales
 locales components for the xfce4-whiskermenu-plugin package.
+
+
+%package man
+Summary: man components for the xfce4-whiskermenu-plugin package.
+Group: Default
+
+%description man
+man components for the xfce4-whiskermenu-plugin package.
 
 
 %prep
@@ -83,16 +102,18 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1514496875
-mkdir clr-build
+export SOURCE_DATE_EPOCH=1542223905
+mkdir -p clr-build
 pushd clr-build
-cmake .. -G "Unix Makefiles" -DCMAKE_INSTALL_PREFIX=/usr -DBUILD_SHARED_LIBS:BOOL=ON -DLIB_INSTALL_DIR:PATH=/usr/lib64 -DCMAKE_AR=/usr/bin/gcc-ar -DLIB_SUFFIX=64 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCMAKE_RANLIB=/usr/bin/gcc-ranlib
-make VERBOSE=1  %{?_smp_mflags}
+%cmake ..
+make  %{?_smp_mflags} VERBOSE=1
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1514496875
+export SOURCE_DATE_EPOCH=1542223905
 rm -rf %{buildroot}
+mkdir -p %{buildroot}/usr/share/package-licenses/xfce4-whiskermenu-plugin
+cp COPYING %{buildroot}/usr/share/package-licenses/xfce4-whiskermenu-plugin/COPYING
 pushd clr-build
 %make_install
 popd
@@ -118,13 +139,17 @@ popd
 /usr/share/icons/hicolor/scalable/apps/xfce4-whiskermenu.svg
 /usr/share/xfce4/panel/plugins/whiskermenu.desktop
 
-%files doc
-%defattr(-,root,root,-)
-%doc /usr/share/man/man1/*
-
 %files lib
 %defattr(-,root,root,-)
 /usr/lib64/xfce4/panel/plugins/libwhiskermenu.so
+
+%files license
+%defattr(0644,root,root,0755)
+/usr/share/package-licenses/xfce4-whiskermenu-plugin/COPYING
+
+%files man
+%defattr(0644,root,root,0755)
+/usr/share/man/man1/xfce4-popup-whiskermenu.1
 
 %files locales -f xfce4-whiskermenu-plugin.lang
 %defattr(-,root,root,-)
