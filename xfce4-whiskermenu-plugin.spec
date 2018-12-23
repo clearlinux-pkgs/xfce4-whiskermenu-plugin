@@ -4,9 +4,9 @@
 #
 Name     : xfce4-whiskermenu-plugin
 Version  : 2.1.5
-Release  : 18
-URL      : http://mirror.netcologne.de/xfce/src/panel-plugins/xfce4-whiskermenu-plugin/2.1/xfce4-whiskermenu-plugin-2.1.5.tar.bz2
-Source0  : http://mirror.netcologne.de/xfce/src/panel-plugins/xfce4-whiskermenu-plugin/2.1/xfce4-whiskermenu-plugin-2.1.5.tar.bz2
+Release  : 19
+URL      : http://archive.xfce.org/src/panel-plugins/xfce4-whiskermenu-plugin/2.1/xfce4-whiskermenu-plugin-2.1.5.tar.bz2
+Source0  : http://archive.xfce.org/src/panel-plugins/xfce4-whiskermenu-plugin/2.1/xfce4-whiskermenu-plugin-2.1.5.tar.bz2
 Summary  : No detailed summary available
 Group    : Development/Tools
 License  : GPL-2.0
@@ -102,7 +102,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1542223905
+export SOURCE_DATE_EPOCH=1545592459
 mkdir -p clr-build
 pushd clr-build
 %cmake ..
@@ -110,7 +110,7 @@ make  %{?_smp_mflags} VERBOSE=1
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1542223905
+export SOURCE_DATE_EPOCH=1545592459
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/xfce4-whiskermenu-plugin
 cp COPYING %{buildroot}/usr/share/package-licenses/xfce4-whiskermenu-plugin/COPYING
