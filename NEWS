@@ -1,3 +1,52 @@
+2.3.0
+=====
+- Fix sidebar wider than iconless categories.
+- Add buttons for individual logout commands. (bug #14639)
+- Add option to stay visible when focus is lost. (bug #12240)
+- Always allow positioning commands next to search.
+- Improve preferences spacing. (bug #14683)
+- Translation updates: Bulgarian, Catalan, Chinese (China),
+  Chinese (Taiwan), Czech, Danish, Dutch, French, German, Greek,
+  Lithuanian, Nepali, Polish, Portuguese, Portuguese (Brazil),
+  Russian, Serbian, Slovak, Slovenian, Turkish, Welsh.
+
+2.2.1
+=====
+- Fix category button staying active when dragged. (bug #14419)
+- Fix regression of non-square panel image support. (bug #14506)
+- Fix redundant hiding of menu.
+- Fix sidebar buttons retaining incorrect width.
+- Fix commands not following sidebar.
+- Translation updates: English (United Kingdom), Georgian, Japanese,
+  Serbian, Slovak, Slovenian, Spanish, Swedish.
+
+2.2.0
+=====
+- Fix panel icon size not following theme.
+- Disable opacity option when non-composited.
+- Rename option for including favorites in recent.
+- Load applications in a thread. (bug #12903)
+- Slide out search results.
+- Require GTK+ version 3.22.
+- Translation updates: Amharic, Belarusian, Bulgarian, Catalan,
+  Chinese (China), Chinese (Taiwan), Croatian, Czech, Danish, Dutch,
+  Esperanto, French, German, Lithuanian, Nepali, Polish, Portuguese,
+  Portuguese (Brazil), Romanian, Russian, Slovak, Slovenian, Turkish.
+
+2.1.7
+=====
+- Fix memory leak when recreating window.
+- Use HTTPS for plugin website.
+- Translation updates: Bulgarian, French, Turkish.
+
+2.1.6
+=====
+- Fix losing search focus. (bug #14209)
+- Fix crash when last search action is deleted.
+- Fix menu shown in alt-tab.
+- Translation updates: Bulgarian, Catalan, Chinese (Taiwan), Czech,
+  Danish, Finnish, German, Lithuanian, Polish, Portuguese, Spanish.
+
 2.1.5
 =====
 - Fix typo. (bug #14001)
