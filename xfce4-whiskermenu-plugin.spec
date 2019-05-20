@@ -4,10 +4,10 @@
 #
 Name     : xfce4-whiskermenu-plugin
 Version  : 2.3.2
-Release  : 23
+Release  : 24
 URL      : http://archive.xfce.org/src/panel-plugins/xfce4-whiskermenu-plugin/2.3/xfce4-whiskermenu-plugin-2.3.2.tar.bz2
 Source0  : http://archive.xfce.org/src/panel-plugins/xfce4-whiskermenu-plugin/2.3/xfce4-whiskermenu-plugin-2.3.2.tar.bz2
-Summary  : No detailed summary available
+Summary  : Menu for Xfce4
 Group    : Development/Tools
 License  : GPL-2.0
 Requires: xfce4-whiskermenu-plugin-bin = %{version}-%{release}
@@ -101,16 +101,22 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1553714744
+export SOURCE_DATE_EPOCH=1558342388
 mkdir -p clr-build
 pushd clr-build
-export LDFLAGS="${LDFLAGS} -fno-lto"
+export AR=gcc-ar
+export RANLIB=gcc-ranlib
+export NM=gcc-nm
+export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FCFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export FFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
+export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 %cmake ..
-make  %{?_smp_mflags} VERBOSE=1
+make  %{?_smp_mflags}
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1553714744
+export SOURCE_DATE_EPOCH=1558342388
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/xfce4-whiskermenu-plugin
 cp COPYING %{buildroot}/usr/share/package-licenses/xfce4-whiskermenu-plugin/COPYING
