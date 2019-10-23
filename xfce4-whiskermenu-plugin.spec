@@ -4,7 +4,7 @@
 #
 Name     : xfce4-whiskermenu-plugin
 Version  : 2.3.3
-Release  : 26
+Release  : 27
 URL      : http://archive.xfce.org/src/panel-plugins/xfce4-whiskermenu-plugin/2.3/xfce4-whiskermenu-plugin-2.3.3.tar.bz2
 Source0  : http://archive.xfce.org/src/panel-plugins/xfce4-whiskermenu-plugin/2.3/xfce4-whiskermenu-plugin-2.3.3.tar.bz2
 Summary  : No detailed summary available
