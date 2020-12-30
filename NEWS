@@ -1,3 +1,91 @@
+2.5.0
+=====
+- Add option to show all applications by default. (Issue #4)
+- Rearrange sidebar buttons to match default category. (Issue #9)
+- Show panel button title as tooltip in icon-only mode. (Issue #12)
+- Always sort top-level categories.
+- Vertically center contents of header.
+- Use new Xfce action icons.
+- Use new desktop ids for default programs.
+- Rewrite to hide menu on focus out.
+- Refactor code to use new Xfce functions.
+- Refactor building translations.
+- Translation updates: Bulgarian, Chinese (China), Chinese (Taiwan),
+  Croatian, Czech, Danish, Dutch, Esperanto, French, Galician,
+  German, Italian, Korean, Lithuanian, Malay, Polish, Portuguese,
+  Portuguese (Brazil), Slovak, Spanish, Swedish, Turkish.
+
+2.4.6
+=====
+- Fix crash during grab check. (Issue #19)
+- Fix background incorrect without compositing.
+
+2.4.5
+=====
+- Fix saving plugin title with overridden default text. (Bug #16822)
+- Fix extra key press to select search items. (Issue #8)
+- Fix icon view skipping first item when pressing arrow key.
+- Fix incorrect signal name.
+- Fix nonfunctional grab check.
+- Translation updates: Asturian, Dutch, Esperanto, Hungarian, Icelandic,
+  Portuguese, Portuguese (Brazil), Russian.
+
+2.4.4
+=====
+- Fixed search delay. (bug #16731)
+- Translation updates: Catalan, Finnish, Hungarian, Malay, Portuguese.
+
+2.4.3
+=====
+- Fix loading incorrect icons for some applications. (bug #16461)
+- Translation updates: Bulgarian, Finnish, Greek, Icelandic, Interlingue,
+  Nepali, Norwegian Bokmål, Russian, Slovak.
+
+2.4.2
+=====
+- Fix crash when selecting desktop action. (bug #16445)
+- Translation updates: Chinese (China), Croatian, Georgian.
+
+2.4.1
+=====
+- Fix narrow iconview columns.
+- Fix bad hyphenation by increasing iconview column width.
+- Translation updates: Finnish, Serbian.
+
+2.4.0
+=====
+- Add option to show as icons. (bug #15675)
+- Add hiding menu items. (bug #14816)
+- Add searching keywords of menu items. (bug #15047)
+- Add tooltip to profile picture for editing profile. (bug #15501)
+- Adjust wording of switch user command. (bug #15398)
+- Add icons to context menu.
+- New default layout.
+- Make panel button square only if single row and title hidden.
+- Rearrange settings dialog.
+- Redesign session confirmation dialogs.
+- Refactor code.
+- Rewrite menu load to match GarconGtkMenu.
+- Switch categories with keyboard focus if hover enabled.
+- Use custom icon renderer.
+- Use link time optimization if available.
+- Increase C++ version.
+- Translation updates: Bulgarian, Catalan, Chinese (Taiwan), Czech,
+  Danish, Dutch, Finnish, French, Galician, Georgian, German, Greek,
+  Icelandic, Indonesian, Interlingue, Italian, Japanese, Lithuanian,
+  Malay, Nepali, Norwegian Bokmål, Polish, Portuguese,
+  Portuguese (Brazil), Slovak, Spanish, Turkish.
+
+2.3.5
+=====
+- Fix saving unchanged plugin title. (bug #15403)
+- Fix sidebar scrollbar covering buttons. (bug #14730)
+- Fix categories remaining scrolled when hidden.
+- Fix incorrect alignment of commands next to search.
+- Fix incorrect fallback value for menu opacity.
+- Fix incorrect check when setting command.
+- Update documentation URL. (bug #16183)
+
 2.3.4
 =====
 - Fix building against xfce4-panel 4.15.0

@@ -1,6 +1,6 @@
 # This file contains additional pkgconfig build requirements that did
 # not get picked up automatically. One name per line, no whitespace.
-exo-1
+exo-2
 gtk+-2.0
 garcon-1
-libxfce4panel-1.0
+libxfce4panel-2.0
