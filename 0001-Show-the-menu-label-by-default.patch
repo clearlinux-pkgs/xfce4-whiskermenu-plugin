@@ -1,4 +1,4 @@
-From dd78e376759facfb07de8d5e5c6ff0a0d897cc41 Mon Sep 17 00:00:00 2001
+From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
 From: Ikey Doherty <michael.i.doherty@intel.com>
 Date: Mon, 25 Jan 2016 13:23:22 +0000
 Subject: [PATCH] Show the menu label by default
@@ -9,18 +9,15 @@ Signed-off-by: Ikey Doherty <michael.i.doherty@intel.com>
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/panel-plugin/settings.cpp b/panel-plugin/settings.cpp
-index 71482c1..a33f0a6 100644
+index 151f59a..7cdf27c 100644
 --- a/panel-plugin/settings.cpp
 +++ b/panel-plugin/settings.cpp
-@@ -84,7 +84,7 @@ Settings::Settings() :
- 	m_modified(false),
+@@ -58,7 +58,7 @@ Settings::Settings() :
  
- 	button_icon_name("xfce4-whiskermenu"),
--	button_title_visible(false),
-+	button_title_visible(true),
- 	button_icon_visible(true),
- 	button_single_row(false),
+ 	button_title("button-title", m_button_title_default),
+ 	button_icon_name("button-icon", "org.xfce.panel.whiskermenu"),
+-	button_title_visible("show-button-title", false),
++	button_title_visible("show-button-title", true),
+ 	button_icon_visible("show-button-icon", true),
+ 	button_single_row("button-single-row", false),
  
--- 
-2.7.0
-
