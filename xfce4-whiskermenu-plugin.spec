@@ -4,7 +4,7 @@
 #
 Name     : xfce4-whiskermenu-plugin
 Version  : 2.7.1
-Release  : 36
+Release  : 37
 URL      : https://archive.xfce.org/src/panel-plugins/xfce4-whiskermenu-plugin/2.7/xfce4-whiskermenu-plugin-2.7.1.tar.bz2
 Source0  : https://archive.xfce.org/src/panel-plugins/xfce4-whiskermenu-plugin/2.7/xfce4-whiskermenu-plugin-2.7.1.tar.bz2
 Summary  : No detailed summary available
@@ -22,7 +22,6 @@ BuildRequires : pkg-config
 BuildRequires : pkgconfig(accountsservice)
 BuildRequires : pkgconfig(exo-2)
 BuildRequires : pkgconfig(garcon-1)
-BuildRequires : pkgconfig(gtk+-2.0)
 BuildRequires : pkgconfig(gtk+-3.0)
 BuildRequires : pkgconfig(libxfce4panel-2.0)
 BuildRequires : pkgconfig(libxfce4ui-2)
@@ -98,7 +97,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1647041362
+export SOURCE_DATE_EPOCH=1663777179
 mkdir -p clr-build
 pushd clr-build
 export GCC_IGNORE_WERROR=1
@@ -114,10 +113,10 @@ make  %{?_smp_mflags}
 popd
 
 %install
-export SOURCE_DATE_EPOCH=1647041362
+export SOURCE_DATE_EPOCH=1663777179
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/xfce4-whiskermenu-plugin
-cp %{_builddir}/xfce4-whiskermenu-plugin-2.7.1/COPYING %{buildroot}/usr/share/package-licenses/xfce4-whiskermenu-plugin/4cc77b90af91e615a64ae04893fdffa7939db84c
+cp %{_builddir}/xfce4-whiskermenu-plugin-%{version}/COPYING %{buildroot}/usr/share/package-licenses/xfce4-whiskermenu-plugin/4cc77b90af91e615a64ae04893fdffa7939db84c
 pushd clr-build
 %make_install
 popd
