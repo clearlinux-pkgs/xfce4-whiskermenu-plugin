@@ -1,23 +1,26 @@
-From 0000000000000000000000000000000000000000 Mon Sep 17 00:00:00 2001
-From: Ikey Doherty <michael.i.doherty@intel.com>
-Date: Mon, 25 Jan 2016 13:23:22 +0000
+From 7ca1b3d249afcbfd98e1d3a9004e33023ea5039c Mon Sep 17 00:00:00 2001
+From: William Douglas <william.douglas@intel.com>
+Date: Thu, 30 Jan 2025 09:29:00 -0800
 Subject: [PATCH] Show the menu label by default
 
-Signed-off-by: Ikey Doherty <michael.i.doherty@intel.com>
+Signed-off-by: William Douglas <william.douglas@intel.com>
 ---
  panel-plugin/settings.cpp | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/panel-plugin/settings.cpp b/panel-plugin/settings.cpp
-index 151f59a..7cdf27c 100644
+index 0653d50..c6504cd 100644
 --- a/panel-plugin/settings.cpp
 +++ b/panel-plugin/settings.cpp
-@@ -58,7 +58,7 @@ Settings::Settings() :
+@@ -54,7 +54,7 @@ Settings::Settings(Plugin* plugin) :
  
- 	button_title("button-title", m_button_title_default),
- 	button_icon_name("button-icon", "org.xfce.panel.whiskermenu"),
--	button_title_visible("show-button-title", false),
-+	button_title_visible("show-button-title", true),
- 	button_icon_visible("show-button-icon", true),
- 	button_single_row("button-single-row", false),
+ 	button_title("/button-title", m_button_title_default),
+ 	button_icon_name("/button-icon", "org.xfce.panel.whiskermenu"),
+-	button_title_visible("/show-button-title", false),
++	button_title_visible("/show-button-title", true),
+ 	button_icon_visible("/show-button-icon", true),
+ 	button_single_row("/button-single-row", false),
  
+-- 
+2.47.1
+

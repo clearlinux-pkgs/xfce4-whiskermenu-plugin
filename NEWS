@@ -1,3 +1,68 @@
+2.9.0
+=====
+- Add dragging from any side to resize menu. (Issue #112)
+- Add support for autostarting launchers. (Issue #35)
+- Add support for keypad navigation.
+- Always send Page Up and Page Down keys to view. (Issue #145)
+- Always run selected launcher when pressing enter.
+- Fall back to non-regex search actions. (Issue #128)
+- Only select launcher when mouse moves. (Issue #106)
+- Remember current category with arrow keys. (Issue #132)
+- Require Xfce 4.16.
+- Fix menu not centering with horizontal categories. (Issue #131)
+- Fix warning about unblocking panel autohide.
+- Fix search text replaced after pressing arrow keys.
+- Translation updates: Catalan, Chinese (Taiwan), Czech, Danish, Dutch,
+  French, Lithuanian, Polish, Portuguese, Serbian, Slovak, Swedish,
+  Ukrainian.
+
+2.8.4
+=====
+- Fix menu not hiding in labwc.
+- Fix GHashTable leak in Settings::load.
+- Fix string leak in is_separator.
+- Translation updates: Basque, Bulgarian, Chinese (China), Czech, Dutch,
+  Estonian, French, Galician, Georgian, Indonesian, Polish, Russian, Slovak,
+  Slovenian, Turkish.
+
+2.8.3
+=====
+- Fix adding launchers to desktop. (Issue #122)
+- Fix segfault in profile destructor. (Issue #123)
+- Translation updates: Catalan, Chinese (Taiwan), Danish, Dutch, German,
+  Greek, Indonesian, Korean, Lithuanian, Polish, Portuguese, Serbian, Slovak,
+  Spanish, Swedish.
+
+2.8.2
+=====
+- Fix crash when searching. (Issue #120)
+- Translation updates: Catalan, Finnish, Polish, Turkish.
+
+2.8.1
+=====
+- Fix missing commandline option in man page. (Issue #119)
+- Fix incorrect category icons by disabling fallbacks. (Issue #116)
+- Remember order of recently used when searching.
+- Translation updates: Basque, Danish, German, Greek, Hungarian, Swedish, Ukrainian.
+
+2.8.0
+=====
+- Fix menu toggling in Wayland.
+- Fix menu position in Wayland.
+- Add support for popping up specific menu instances. (Issue #95)
+- Add showing menu at center of screen. (Issue #109)
+- Replace options for positioning menu layout.
+- Replace resize widgets with options in settings dialog.
+- Replace command for switching users.
+- Replace popup script with executable.
+- Require Xfce 4.14.
+- Make linking against AccountsService explicit.
+- Stop including favorites in recent by default.
+- Store settings in Xfconf.
+- Translation updates: Bulgarian, Chinese (Taiwan), Danish, Dutch, German,
+  Greek, Spanish, Basque, Finnish, French, Italian, Lithuanian, Persian,
+  Portuguese, Russian, Slovak, Swedish, Turkish, Ukrainian.
+
 2.7.3
 =====
 - Fix broken linking with AccountsService.
